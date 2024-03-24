@@ -1,0 +1,75 @@
+.container {
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .grid {
+    display: grid;
+  }
+  
+  .gap-16 {
+    gap: 16px;
+  }
+  
+  .px-10 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .py-10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .rounded-2xl {
+    border-radius: 1rem;
+  }
+  
+  .grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  
+  .divide-x > * + * {
+    border-left: 1px solid #d1d5db;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .shadow-xl {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .shadow-gray-500 {
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  
+  .divide-gray-300 {
+    border-color: #d1d5db;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .gap-5 > * + * {
+    margin-left: 5px;
+  }
+  
+  .text-xl {
+    font-size: 1.25rem;
+  }
+  
+  .font-semibold {
+    font-weight: 600;
+  }
+  

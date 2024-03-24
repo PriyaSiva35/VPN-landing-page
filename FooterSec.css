@@ -1,0 +1,104 @@
+.container {
+    margin: 0 auto;
+  }
+  
+  .py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  
+  .bg-gray-50 {
+    background-color: #f7fafc;
+  }
+  
+  .grid {
+    display: grid;
+  }
+  
+  .grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+  
+  .gap-16 {
+    gap: 4rem;
+  }
+  
+  .space-y-4 > p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .text-gray-400 {
+    color: #cbd5e0;
+  }
+  
+  .text-xl {
+    font-size: 1.25rem;
+  }
+  
+  .font-semibold {
+    font-weight: 600;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .img-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  
+  /* Style for the logo image */
+  .logo {
+    width: 150px; /* Adjust as needed */
+    height: auto;
+  }
+  
+  /* Style for social media icons */
+  .social-icon {
+    width: 30px; /* Adjust as needed */
+    height: 30px;
+    margin-right: 1rem; /* Adjust as needed */
+  }
+  
+  /* Adjust styles for buttons */
+  .btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary {
+    background-color: #2563eb;
+    color: #fff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #1d4ed8;
+  }
+  
+  .btn-outline {
+    background-color: transparent;
+    border: 2px solid #2563eb;
+    color: #2563eb;
+  }
+  
+  .btn-outline:hover {
+    background-color: #f3f4f6;
+  }
+  

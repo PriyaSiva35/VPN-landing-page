@@ -1,0 +1,48 @@
+.container {
+    margin: 0 auto;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .justify-between {
+    justify-content: space-between;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .h-screen {
+    height: 100vh;
+  }
+  
+  .text-5xl {
+    font-size: 3rem;
+  }
+  
+  .font-bold {
+    font-weight: bold;
+  }
+  
+  .gap-10 {
+    gap: 2.5rem;
+  }
+  
+  .flex-col {
+    flex-direction: column;
+  }
+  
+  .gap-5 {
+    gap: 1.25rem;
+  }
+  
+  .text-lg {
+    font-size: 1.125rem;
+  }
+  
+  .font-medium {
+    font-weight: 500;
+  }
+  
